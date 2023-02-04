@@ -51,7 +51,7 @@ public class BolaoC implements CommandExecutor {
         }
         if (nArgs == 1) {
             if (args[0].equalsIgnoreCase("iniciar")) {
-                boolean isAdmin = sender.hasPermission("CB.adm");
+                boolean isAdmin = sender.hasPermission(Main.config.getConfig().getString("Permissao"));
                 if (isAdmin) {
                     if (BolaoO.rolando) {
                         sender.sendMessage(Main.msg.getConfig().getString("Mensagens.Avisos.TemBolao")
@@ -99,7 +99,7 @@ public class BolaoC implements CommandExecutor {
         }
          if (nArgs == 2) {
             if (args[0].equalsIgnoreCase("iniciar")) {
-                boolean isAdmin = sender.hasPermission("CB.adm");
+                boolean isAdmin = sender.hasPermission(Main.config.getConfig().getString("Permissao"));
                 if (isAdmin) {
                     if (!BolaoO.rolando) {
                         iniciarBolao(Integer.parseInt(args[1]));
