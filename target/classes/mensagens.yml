@@ -1,0 +1,38 @@
+Mensagens:
+  Bolao_Comecou:
+    - ' '
+    - '&6&lBOLAO: &fO evento foi iniciado! &8(Tempo Restante: [TEMPO])'
+    - '&6&l- &fUse &6&n/BOLAO&f para entrar no evento.'
+    - ' '
+  Bolao_Acabou:
+    SemPlayers: '&6&lBOLAO: &fParece que ninguém quis participar do bolão :('
+    AvisoGeral:
+      - ' '
+      - '&6&lBOLAO: &fO evento acabou, parece que temos um vencedor!'
+      - '&6&l- &fParabens &6&n[VENCEDOR]&f! &fVocê ganhou &a[VTOTAL]$'
+      - ' '
+  Avisos:
+    Tempo: '&6&lBOLAO: &fFaltam [TRESTANTE] para o evento acabar!'
+    SemBolao: '&6&lBOLAO: &fNão tem bolão ocorrendo no momento!'
+    TemBolao: '&6&lBOLAO: &fJá tem um bolão ocorrendo no momento!'
+    ColoqueOValor: '&6&lBOLAO: &fUse: &6&n/BOLAO INICIAR <VALOR>&f!'
+    SemPerm: '&c&l! &f&cVocê não possui permissão para usar esse comando!'
+    SemDinheiro: '&6&lBOLAO: &fVocê não possui dinheiro o suficiente!'
+    JaParticipando: '&6&lBOLAO: &fVocê já está participando!'
+    VencedorKitou: '&4&l! &fParece que o vencedor kitou encima da hora :('
+
+  Status:
+    - ' '
+    - '&6&l- &fNúmero de apostas: &6&n[APOSTAS]'
+    - '&6&l- &fPreço da inscrição: &6&n[PINSCRICAO]'
+    - '&6&l- &fPremio total: &6&n[PTOTAL]'
+    - ' '
+
+  Bolao_Entrou:
+    - ' '
+    - '&6&lBOLAO: &fVocê entrou no bolão!'
+    - ' &6&l- &fUse &6&n/BOLAO STATUS&f para ver sobre o evento.'
+    - ' '
+
+
+

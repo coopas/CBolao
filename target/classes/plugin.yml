@@ -1,0 +1,9 @@
+name: CBolao
+version: '1.0-SNAPSHOT'
+main: com.coopas.cbolao.Main
+authors: [ Coopas ]
+description: Plugin de evento de chat Bolão
+website: https://github.com/coopas
+depend: [ Vault ]
+commands:
+  bolao:

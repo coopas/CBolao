@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CBolao">
+    <output-path>$PROJECT_DIR$/../Aulas -/Servidor/plugins</output-path>
+    <root id="archive" name="CBolao.jar">
+      <element id="module-output" name="CBolao" />
+    </root>
+  </artifact>
+</component>
